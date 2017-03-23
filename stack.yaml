@@ -1,7 +1,17 @@
-resolver: lts-8.5
+resolver: nightly-2017-03-20
 extra-deps:
   - Ranged-sets-0.3.0
+  - bytestring-strict-builder-0.4.3
+  - bytestring-tree-builder-0.2.7.1
+  - contravariant-extras-0.3.3.1
+  - hashtables-1.2.1.0
+  - hasql-0.19.18
   - hasql-pool-0.4.1
+  - hasql-transaction-0.5
+  - postgresql-binary-0.12.1
+  - primitive-0.6.1.0
+  - tuple-th-0.2.5
+  - vector-0.11.0.0
 ghc-options:
   postgrest: -O2 -Werror -Wall -fwarn-identities -fno-warn-redundant-constraints
 nix:
